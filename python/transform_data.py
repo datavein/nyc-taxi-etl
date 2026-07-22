@@ -121,9 +121,3 @@ def transform(df: pd.DataFrame) -> pd.DataFrame:
     df = clean_trip_duration(df)
 
     return df
-
-if __name__ == "__main__":
-    df = extract()
-    df = validate(df)
-    df = transform(df)
-    
