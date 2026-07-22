@@ -54,6 +54,3 @@ def load(df: pd.DataFrame) -> None:
     verify_saved_dataset()
     print_load_summary(df)
 
-if __name__ == "__main__":
-    df = pd.read_parquet(RAW_DATA_PATH)
-    load(df)
