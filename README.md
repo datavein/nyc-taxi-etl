@@ -44,3 +44,11 @@ The project is being developed incrementally to simulate a real-world Data Engin
 - Invalid record removal
 - Processed dataset export
 - Modular and extensible project structure
+
+## Dataset
+
+The dataset is not included in this repository due to its size.
+
+Download the NYC Yellow Taxi dataset from:
+
+https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
