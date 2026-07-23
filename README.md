@@ -29,7 +29,7 @@ The pipeline follows a modular ETL architecture consisting four stages:
 
 Before running the ETL pipeline, the project provides a data inspection utility that explores the raw dataset, validates its structure, and identifies potential data quality issues.
 
-During the transformation stage, teh pipeline performs data profiling, calculates trip duration, detects anomalies, removes invaid records and exports the cleaned dataset as a new Parquet file.
+During the transformation stage, the pipeline performs data profiling, calculates trip duration, detects anomalies, removes invalid records, and exports the cleaned dataset as a new Parquet file.
 
 The project is being developed incrementally to simulate a real-world Data Engineering workflow. Future version will include Microsoft SQL Server, SQL-based ETL, orcestration and bussines intelligance reporting. 
 
